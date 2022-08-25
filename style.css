@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ 
+ * {
+  font-family: Poppins;
+  background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),url("https://wallpaperboat.com/wp-content/uploads/2019/09/the-cool-background-of-minecraft.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color-scheme: dark;
+ }
+
+ .titolo {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 300px;
+  transition: .4s ease-in-out;
+  font-size: 50px;
+  color: white;
+ }
+
+ .btncontainer {
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+ .buttontg {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: lightskyblue;
+    border: none;
+    font-size: 17px;
+    transition: 0.4s ease-in-out;
+ }
+
+ .buttonyt {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: red;
+    border: none;
+    font-size: 17px;
+    transition: 0.4s ease-in-out;
+ }
+
+ .buttonbtc {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: green;
+    border: none;
+    font-size: 17px;
+    transition: .4s ease-in-out;
+ }
+
+ .buttonsg {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: gold;
+    border: none;
+    font-size: 17px;
+    transition: 0.4s ease-in-out;
+ }
+
+ .buttonrd {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: orange;
+    border: none;
+    font-size: 17px;
+    transition: 0.4s ease-in-out;
+ }
+
+ .buttonlo {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: purple;
+    border: none;
+    font-size: 17px;
+    transition: 0.4s ease-in-out;
+ }
+
+ .buttontg:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+ }
+ 
+ .buttonlo:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+ }
+
+ .buttonrd:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+ }
+
+ .buttonsg:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+ }
+
+ .buttonbtc:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+ }
+
+ .buttonyt:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+ }
+
+ .buttontg:active {
+    transform: scale(1.02);
+ }
+
+ .buttonbtc:active {
+    transform: scale(1.02);
+ }
+
+ .buttonlo:active {
+    transform: scale(1.02);
+ }
+
+ .buttonyt:active {
+    transform: scale(1.02);
+ }
+
+ .buttonrd:active {
+    transform: scale(1.02);
+ }
+
+ .buttonsg:active {
+    transform: scale(1.02);
+ }
