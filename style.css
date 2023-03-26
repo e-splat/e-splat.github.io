@@ -28,7 +28,7 @@
  .buttontg {
     height: 50px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 30px;
     background: lightskyblue;
     border: none;
     font-size: 17px;
@@ -38,7 +38,7 @@
  .buttonyt {
     height: 50px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 30px;
     background: red;
     border: none;
     font-size: 17px;
@@ -48,7 +48,7 @@
  .buttonbtc {
     height: 50px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 30px;
     background: green;
     border: none;
     font-size: 17px;
@@ -58,8 +58,8 @@
  .buttonsg {
     height: 50px;
     width: 150px;
-    border-radius: 5px;
-    background: gold;
+    border-radius: 30px;
+    background: blue;
     border: none;
     font-size: 17px;
     transition: 0.4s ease-in-out;
@@ -68,7 +68,7 @@
  .buttonrd {
     height: 50px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 30px;
     background: orange;
     border: none;
     font-size: 17px;
@@ -78,7 +78,7 @@
  .buttonlo {
     height: 50px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 30px;
     background: purple;
     border: none;
     font-size: 17px;
