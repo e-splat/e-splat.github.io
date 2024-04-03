@@ -1,140 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
- 
- * {
-  font-family: Poppins;
-  background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),url("https://wallpaperboat.com/wp-content/uploads/2019/09/the-cool-background-of-minecraft.jpg") no-repeat center center fixed;
-  background-size: cover;
-  color-scheme: dark;
- }
+body,
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background: #18120d
+}
 
- .titolo {
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 300px;
-  transition: .4s ease-in-out;
-  font-size: 50px;
-  color: white;
- }
+h1 {
+	margin: 10px 0 0 0;
+    margin-left: 50px;
+	font-weight: 550;
+    font-size: 50px;
+	color: #eeeeee;
+}
 
- .btncontainer {
+p {
+	font-weight: light;
+	color: #fff;
+}
+
+span a {
+	color: #cccccc;
+	text-decoration: none;
+	margin: 0 10px;
+	transition: all 0.4s ease-in-out;
+	&:hover {
+		color: #ffffff;
+	}
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+.content {
+	width: 100%;
+	max-width: 600px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	text-align: center;
+    text-decoration: none;
+}
+
+.tasti {
+    background: #d4a167;
+    border: none;
+    font-size: 25px;
+    color: #18120d;
+    border-radius: 30px;
+    transition: ease-in 0.5s;
+    width: 150px;
+    height: 60px;
+    font-weight: 550;
+    margin-top: 10px;
     margin-left: 10px;
-    margin-right: 10px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
- }
+    text-decoration: none;
+}
 
- .buttontg {
-    height: 50px;
-    width: 150px;
-    border-radius: 30px;
-    background: lightskyblue;
-    border: none;
-    font-size: 17px;
-    transition: 0.4s ease-in-out;
- }
-
- .buttonyt {
-    height: 50px;
-    width: 150px;
-    border-radius: 30px;
-    background: red;
-    border: none;
-    font-size: 17px;
-    transition: 0.4s ease-in-out;
- }
-
- .buttonbtc {
-    height: 50px;
-    width: 150px;
-    border-radius: 30px;
-    background: green;
-    border: none;
-    font-size: 17px;
-    transition: .4s ease-in-out;
- }
-
- .buttonsg {
-    height: 50px;
-    width: 150px;
-    border-radius: 30px;
-    background: blue;
-    border: none;
-    font-size: 17px;
-    transition: 0.4s ease-in-out;
- }
-
- .buttonrd {
-    height: 50px;
-    width: 150px;
-    border-radius: 30px;
-    background: orange;
-    border: none;
-    font-size: 17px;
-    transition: 0.4s ease-in-out;
- }
-
- .buttonlo {
-    height: 50px;
-    width: 150px;
-    border-radius: 30px;
-    background: purple;
-    border: none;
-    font-size: 17px;
-    transition: 0.4s ease-in-out;
- }
-
- .buttontg:hover {
-    transform: scale(1.10);
+.tasti-github:hover {
+    background: #242424;
+    color: white;
+    transition: ease-in-out(0.2s);
     cursor: pointer;
- }
- 
- .buttonlo:hover {
-    transform: scale(1.10);
+    transform: scale(1.15);    
+}
+
+.tasti-twitter:hover {
+    background: #242424;
+    color: white;
+    transition: ease-in-out(0.2s);
     cursor: pointer;
- }
+    transform: scale(1.15);    
+}
 
- .buttonrd:hover {
-    transform: scale(1.10);
+.tasti-youtube:hover {
+    background: #8d0909;
+    color: white;
+    transition: ease-in-out(0.2s);
     cursor: pointer;
- }
+    transform: scale(1.15);    
+}
 
- .buttonsg:hover {
-    transform: scale(1.10);
+.tasti-reddit:hover {
+    background: #f55307;
+    color: white;
+    transition: ease-in-out(0.2s);
     cursor: pointer;
- }
+    transform: scale(1.15);    
+}
 
- .buttonbtc:hover {
-    transform: scale(1.10);
+.tasti-telegram:hover {
+    background: #1178ff;
+    color: white;
+    transition: ease-in-out(0.2s);
     cursor: pointer;
- }
+    transform: scale(1.15);    
+}
 
- .buttonyt:hover {
-    transform: scale(1.10);
+.tasti-instagram:hover {
+    background: #bd16a7;
+    color: white;
+    transition: ease-in-out(0.2s);
     cursor: pointer;
- }
+    transform: scale(1.15);    
+}
 
- .buttontg:active {
-    transform: scale(1.02);
- }
-
- .buttonbtc:active {
-    transform: scale(1.02);
- }
-
- .buttonlo:active {
-    transform: scale(1.02);
- }
-
- .buttonyt:active {
-    transform: scale(1.02);
- }
-
- .buttonrd:active {
-    transform: scale(1.02);
- }
-
- .buttonsg:active {
-    transform: scale(1.02);
- }
+.tasti:active {
+    transition: ease-in-out 0.1s;
+    background: #ffc27c;
+    box-shadow:inset 0 0 50px 0;
+    transform:translateY(4px);
+    border-bottom: none;    
+}
